@@ -5,25 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
     <title>Astronomy Blog</title>
+    <link rel="shortcut icon" type="image/png/jpg" href="./images/fav.png"/>
 </head>
 <body>
-    <header style="width:100%;height:100vh;background: url('./images/2472783.jpg') 50% 50% / 100% no-repeat fixed; ;">
-        <b style="font-size: 35px;color:white; margin: 30px 20px;"> Astronomy blog </b>
+    <header id = "Home" style="width:100%;height:100vh;background: url('./images/2687923.jpg') 50% 50% / 100% no-repeat fixed;">
+        <h1 style="font-size: 35px;color:black"> Astronomy blog </h1>
         <nav>
             <ul>
-                <a href="#" ><li class="navigation">Home</li></a>
-                <a href="#" ><li class="navigation">Blog</li></a>
-                <a href="#" ><li class="navigation">Contact</li></a>
+                <a href="#Home" ><li class="navigation">Home</li></a>
+                <a href="#Blog" ><li class="navigation">Blogs</li></a>
+                <a href="#Contact" ><li class="navigation">Contact</li></a>
             </ul>
         </nav>
         <section class="home-text" style="margin: 25vh 7%;"> 
                 <span>Two posibilities Exist: Either we are</span>
                 <h1> Alone in Universe</h1>
                 <h2>OR <span>we are NOT.</span> Both are </h2>
-                <h1>Equally Terrifying</h1>
+                <h1>Equally Terrifying</em></h1>
                 <a href="#join" class="btn">Join Us</a>
         </section>
     </header>
+    <center><h1 id="Blog" style="color:white; margin:20px auto;font-size:40px">Blogs</h1></center>
+    <main class="container">
+            
+            <section class="content" >
+                <article>ASTEROID PALLAS MAKES A POINT IN PISCES</article>
+                <br><br>
+                <aside class="content_img" style="float: left;">
+                    <img src="images/space.jpg" width="300px" height="200px">
+                </aside>
+                <p>&nbsp;&nbsp;&nbsp;<em><b>"&nbsp;I've never been able to wrap my mind around the fact that the total mass of the main asteroid belt equals just 4% the mass of the Moon. ---Dr. Vraman"</b></em>
+                    That seems hardly enough to matter, and yet our fate rests on those scraps and shards. A single smack from a 10-kilometer-wide stray and 
+                    humanity — along with thousands of other species — could face the possibility of extinction. Their small bulk paired with their outsize 
+                    destructive potential is just one reason to observe asteroids.
+                </p>
+                <br>
+                
+                <h2><strong> NIBBLE OF NEPTUNE</strong></h2>
+                <br>
+                <aside class="content_img" style="float: right;"><img src="./images/pallas.jfif"></aside>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Certainly, they appear innocent enough. Even at high magnification in amateur telescopes minor planets look like inconsequential pinpoints
+                    of light. But unlike stars, they move against the <em><b>stellar backdrop</b></em> as they orbit the Sun. This makes them fun to track, like watching a 
+                    favorite runner in the race. Irregularly shaped asteroids often show light variations that betray their rotation. Other have been linked to 
+                    meteorites found on Earth, proving that siblings of these bodies continue to affect the planet in the most direct way imaginable — through routine impacts.
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I've never been able to wrap my mind around the fact that the total mass of the main asteroid belt equals just 4% the mass of the Moon. 
+                    That seems hardly enough to matter, and yet our fate rests on those scraps and shards. A single smack from a 10-kilometer-wide stray and 
+                    humanity — along with thousands of other species — could face the possibility of extinction. 
+                    Their small bulk paired with their outsize destructive potential is just one reason to observe asteroids.
+                </p>
+                <address style="float: right;"><b>Auther : R. M. Vaishampar</b></address>
+                <a href="#join" class="btn" style="margin: 20px 0px;">Next Blog</a>
+                
+            </section>
+    </main>
+    <footer id = "Contact">
+        <center><h1 style="font-size: 40px;margin :20px 30px">Contact us</h1></center>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Your Name">
+                <input type="email" name="" id="" placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+                <input type="button" value="Send" class="contact-button">
+            </form>
+        </div>
+
+    </footer>
 </body>
 </html>
